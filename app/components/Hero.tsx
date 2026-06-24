@@ -78,19 +78,19 @@ export default function Hero() {
             className="w-full rounded-3xl object-cover"
           />
 
-          <div className="mt-4 flex w-fit max-w-full flex-wrap items-center justify-center gap-x-3 gap-y-1 rounded-full bg-white px-5 py-2.5 shadow-lg absolute bottom-0">
+          <div className="mt-4 flex w-fit max-w-full flex-wrap items-center justify-center gap-x-3 gap-y-1 rounded-full bg-white px-5 py-2.5 shadow-lg absolute bottom-4">
             <span className="text-sm font-bold text-purple-deep">Great</span>
 
             <div className="flex gap-0.5">
               {[1, 2, 3, 4].map((i) => (
                 <span
                   key={i}
-                  className="flex h-5 w-5 items-center justify-center bg-[#00b67a] text-xs text-white"
+                  className="flex h-5 w-5 items-center justify-center bg-[#00b67a] text-xs text-white rounded-xs"
                 >
                   ★
                 </span>
               ))}
-              <span className="flex h-5 w-5 items-center justify-center bg-gray-300 text-xs text-white">
+              <span className="flex h-5 w-5 items-center justify-center bg-gray-300 text-xs text-white rounded-xs">
                 ★
               </span>
             </div>
