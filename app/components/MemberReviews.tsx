@@ -105,7 +105,7 @@ export default function MemberReviews() {
                 ★
               </span>
             ))}
-            <span className="flex h-4 w-4 items-center justify-center rounded-md bg-gray-300 text-[10px] text-white">
+            <span className="flex h-4 w-4 items-center justify-center rounded-xs bg-gray-300 text-[10px] text-white">
               ★
             </span>
           </div>

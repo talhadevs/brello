@@ -62,7 +62,9 @@ export default function Pricing() {
           <h2 className="mt-3 text-3xl font-bold leading-tight tracking-tight text-brand-purple sm:text-4xl lg:text-5xl font-serif">
             Don&apos;t Spend Another Summer
             <br />
-            <span className="italic text-brand-purple-500">
+            <span
+              className="font-serif text-[2.875rem] font-medium italic leading-[3.01875rem] tracking-[-0.02875rem] text-[#6A45C4]"
+            >
               Watching From the Sidelines
             </span>
           </h2>
