@@ -73,8 +73,10 @@ export default function Pricing() {
               key={plan.name}
               className="relative flex flex-col overflow-hidden rounded-2xl border border-brand-purple bg-white text-left"
             >
-              {/* Top: lavender header + image */}
-              <div className="relative bg-brand-lavender px-6 pt-8 pb-6">
+              {/* Top: gradient header + image */}
+              <div
+                className="relative bg-[radial-gradient(88%_115%_at_50%_14%,#FFF_0%,#E6DDF9_78%)] px-6 pt-8 pb-6"
+              >
                 {plan.badge && (
                   <span className="absolute left-4 top-4 rounded-full bg-[#F3D876] px-5 py-2 text-xs font-bold uppercase tracking-[0.14em] text-[#1E0B4B] shadow-md">
                     {plan.badge}
